@@ -5,7 +5,9 @@
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "features": {
-        "extrakey": true
+        "bootmagic": true,
+        "extrakey": true,
+        "combo": true,
     },
     "matrix_pins": {
         "cols": ["E6", "B4", "B5", "B6", "B2", "B3"],
